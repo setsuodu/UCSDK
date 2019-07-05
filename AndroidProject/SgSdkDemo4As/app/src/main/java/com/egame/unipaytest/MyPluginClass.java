@@ -58,20 +58,25 @@ public class MyPluginClass extends Fragment {
 
     public void registerSDK() {
         UCGameSdk.defaultSdk().registerSDKEventReceiver(receiver);
+        UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "注册=============");
     }
 
     public void unregisterSDK() {
         UCGameSdk.defaultSdk().unregisterSDKEventReceiver(receiver);
     }
 
-    public void ucSdkInit() {
+    public void ucSdkInit(int gameid) {
         ParamInfo gameParamInfo = new ParamInfo();
 
-        gameParamInfo.setGameId(556324);
+        //gameParamInfo.setGameId(556324);
+        //gameParamInfo.setGameId(1082089);
+        gameParamInfo.setGameId(gameid);
         gameParamInfo.setOrientation(UCOrientation.PORTRAIT);
 
         SDKParams sdkParams = new SDKParams();
         sdkParams.put(SDKParamKey.GAME_PARAMS, gameParamInfo);
+
+        UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "初始化SDK=============");
 
         try {
             //初始化SDK
@@ -81,15 +86,18 @@ public class MyPluginClass extends Fragment {
         }
     }
 
-    public void doPay() {
+    public void doPay(String product_name, float amount, String order_id) {
 
         SDKParams sdkParams = new SDKParams();
-        sdkParams.put(SDKProtocolKeys.APP_NAME, "坦克大战");
-        sdkParams.put(SDKProtocolKeys.PRODUCT_NAME, "金币");
-        sdkParams.put(SDKProtocolKeys.AMOUNT, "0.1");
-        sdkParams.put(SDKProtocolKeys.NOTIFY_URL, "http://192.168.1.1/notifypage.do");
-        sdkParams.put(SDKProtocolKeys.ATTACH_INFO, "你的透传参数");
-        sdkParams.put(SDKProtocolKeys.CP_ORDER_ID, "2016000"+System.currentTimeMillis());
+        sdkParams.put(SDKProtocolKeys.APP_NAME, "1378捕鱼");//应⽤名称,将显示在⽀付界⾯
+        sdkParams.put(SDKProtocolKeys.PRODUCT_NAME, product_name);//商品名称,将显示在⽀付界⾯
+        sdkParams.put(SDKProtocolKeys.AMOUNT, amount);//充值⾦额,最多保留⼩数点后2位
+        //sdkParams.put(SDKProtocolKeys.NOTIFY_URL, "http://192.168.1.1/notifypage.do");
+        sdkParams.put(SDKProtocolKeys.NOTIFY_URL, "http://home.5ihuhu.com/Active/Jiuyou/notify");//服务器通知地址
+        sdkParams.put(SDKProtocolKeys.ATTACH_INFO, "你的透传参数");//服务器通知地址透传参数
+        //sdkParams.put(SDKProtocolKeys.CP_ORDER_ID, "2016000"+System.currentTimeMillis());
+        sdkParams.put(SDKProtocolKeys.CP_ORDER_ID, order_id);//cp充值订单号
+        System.out.println("支付参数============="+sdkParams.toString());
 
         try {
             UCGameSdk.defaultSdk().pay(getActivity(), sdkParams);
@@ -194,6 +202,9 @@ public class MyPluginClass extends Fragment {
 
         @Subscribe(event = SDKEventKey.ON_CREATE_ORDER_SUCC)
         private void onPaySucc(final Bundle data) {
+
+            UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "UC_Pay_Success");
+
             Toast.makeText(getActivity(), ">> 支付成功", Toast.LENGTH_LONG).show();
             Log.d(TAG, "此处为支付成功回调: callback data = " + data.getString("response"));
 
@@ -207,6 +218,9 @@ public class MyPluginClass extends Fragment {
 
         @Subscribe(event = SDKEventKey.ON_PAY_USER_EXIT)
         private void onPayFail(String data) {
+
+            UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "UC_Pay_Failure");
+
             Toast.makeText(getActivity(), ">> 支付失败", Toast.LENGTH_LONG).show();
             Log.d(TAG, "pay exit");
         }
