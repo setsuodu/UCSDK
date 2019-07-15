@@ -19,17 +19,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/egame/unipaytest/MyPluginClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/egame/unipaytest/MyPluginClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/UCPaySDK/pay.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/UCPaySDK/pay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/libs/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/libs/classes.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/libs/ucsdk.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/libs/ucsdk.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Scripts/Demo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Scripts/Demo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,14 +39,24 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/egame/unipaytest/MyPluginClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="188" selection-start-line="188" selection-end-line="188" />
+            <state relative-caret-position="130">
+              <caret line="197" column="78" selection-start-line="197" selection-start-column="74" selection-end-line="197" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#GetInstance#0;class#MyPluginClass#0" />
+                <element signature="method#onCreate#0;class#MyPluginClass#0" />
+                <element signature="method#onDestroy#0;class#MyPluginClass#0" />
+                <element signature="method#registerSDK#0;class#MyPluginClass#0" />
+                <element signature="method#ucSdkInit#0;class#MyPluginClass#0" />
+                <element signature="method#doPay#0;class#MyPluginClass#0" />
+                <element signature="docComment;method#login#0;class#MyPluginClass#0" />
+                <element signature="method#login#0;class#MyPluginClass#0" />
+                <element signature="docComment;method#exit#0;class#MyPluginClass#0" />
+                <element signature="method#exit#0;class#MyPluginClass#0" />
                 <element signature="method#exitApp#0;class#MyPluginClass#0" />
                 <element signature="method#formatDate#0;class#MyPluginClass#0" />
                 <element signature="docComment;field#receiver#0;class#MyPluginClass#0" />
@@ -69,6 +73,8 @@
       <find>====</find>
       <find>========</find>
       <find>=============</find>
+      <find>UC_Login_Success</find>
+      <find>登录</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -239,12 +245,12 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.4989339" weight="0.63665944" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="1" sideWeight="0.49840087" visible="true" weight="0.63665944" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010661" side_tool="true" weight="0.5813449" />
-      <window_info anchor="bottom" id="Build" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50159913" side_tool="true" weight="0.49566162" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.3286334" />
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" />
@@ -253,6 +259,7 @@
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.32995737" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -271,7 +278,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/egame/unipaytest/MainActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
@@ -281,6 +287,7 @@
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="jar://$PROJECT_DIR$/app/libs/UCGameSaSdk-ninegame-8.1.0.jar!/cn/uc/gamesdk/UCGameSdk.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -289,12 +296,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="152" column="39" lean-forward="true" selection-start-line="152" selection-start-column="39" selection-end-line="152" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/egame/unipaytest/MyPluginClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        <state relative-caret-position="130">
+          <caret line="197" column="78" selection-start-line="197" selection-start-column="74" selection-end-line="197" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#GetInstance#0;class#MyPluginClass#0" />
+            <element signature="method#onCreate#0;class#MyPluginClass#0" />
+            <element signature="method#onDestroy#0;class#MyPluginClass#0" />
+            <element signature="method#registerSDK#0;class#MyPluginClass#0" />
+            <element signature="method#ucSdkInit#0;class#MyPluginClass#0" />
+            <element signature="method#doPay#0;class#MyPluginClass#0" />
+            <element signature="docComment;method#login#0;class#MyPluginClass#0" />
+            <element signature="method#login#0;class#MyPluginClass#0" />
+            <element signature="docComment;method#exit#0;class#MyPluginClass#0" />
+            <element signature="method#exit#0;class#MyPluginClass#0" />
             <element signature="method#exitApp#0;class#MyPluginClass#0" />
             <element signature="method#formatDate#0;class#MyPluginClass#0" />
             <element signature="docComment;field#receiver#0;class#MyPluginClass#0" />

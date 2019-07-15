@@ -50,7 +50,6 @@ public class Demo : MonoBehaviour
         Debug.Log("初始化...");
         if (Application.platform == RuntimePlatform.Android)
         {
-            //jo.Call("ucSdkInit");
             //jo.Call("ucSdkInit", 556324);
             jo.Call("ucSdkInit", 1082089);
         }
@@ -83,5 +82,29 @@ public class Demo : MonoBehaviour
     public void PluginCallBack(string message)
     {
         Debug.Log("SDK回调：" + message);
+        switch (message)
+        {
+            case "UC_Pay_Success":
+                Debug.Log("支付成功");
+                break;
+            case "UC_Pay_Failure":
+                Debug.Log("支付失败");
+                break;
+        }
     }
+    public void OnLoginSuccess(string sid)
+    {
+        Debug.Log("登录成功：" + sid);
+        //TODO:Http Post
+    }
+    public void OnLoginFailure(string desc)
+    {
+        Debug.Log("登录失败：" + desc);
+    }
+}
+
+public class SDKResponse
+{
+    public string tag;
+    public string message;
 }

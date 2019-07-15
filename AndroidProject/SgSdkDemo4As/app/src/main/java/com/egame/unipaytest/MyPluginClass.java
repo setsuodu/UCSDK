@@ -109,7 +109,6 @@ public class MyPluginClass extends Fragment {
      * 如果需要接入登录，请调用本方法
      */
     public void login() {
-
         UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "登录=============");
 
         try {
@@ -158,6 +157,10 @@ public class MyPluginClass extends Fragment {
         return dateformat.format(time);
     }
 
+    public class SDKResponse {
+        public String tag;
+        public String message;
+    }
 
     /**
      *回调事件
@@ -185,14 +188,14 @@ public class MyPluginClass extends Fragment {
             } else {
                 // 用户登录
                 Toast.makeText(getActivity(), ">> 用户登录成功", Toast.LENGTH_LONG).show();
-                UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "登录成功=============" + sid);
+                UnityPlayer.UnitySendMessage(gameObjectName,"OnLoginSuccess", sid);
             }
         }
 
         @Subscribe(event = SDKEventKey.ON_LOGIN_FAILED)
         private void onLoginFailed(String desc) {
             Toast.makeText(getActivity(), ">> 登录失败", Toast.LENGTH_LONG).show();
-            UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "登录失败=============" + desc);
+            UnityPlayer.UnitySendMessage(gameObjectName,"OnLoginFailure", desc);
         }
 
         @Subscribe(event = SDKEventKey.ON_INIT_SUCC)
@@ -207,7 +210,6 @@ public class MyPluginClass extends Fragment {
 
         @Subscribe(event = SDKEventKey.ON_CREATE_ORDER_SUCC)
         private void onPaySucc(final Bundle data) {
-
             UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "UC_Pay_Success");
 
             Toast.makeText(getActivity(), ">> 支付成功", Toast.LENGTH_LONG).show();
@@ -223,7 +225,6 @@ public class MyPluginClass extends Fragment {
 
         @Subscribe(event = SDKEventKey.ON_PAY_USER_EXIT)
         private void onPayFail(String data) {
-
             UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "UC_Pay_Failure");
 
             Toast.makeText(getActivity(), ">> 支付失败", Toast.LENGTH_LONG).show();
