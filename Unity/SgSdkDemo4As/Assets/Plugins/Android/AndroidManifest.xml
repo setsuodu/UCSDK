@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.egame.unipaytest"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.touchmind.fishing3D.aligames"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -95,7 +96,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="ng556324" />
+                <data android:scheme="ng1082089" />
             </intent-filter>
         </activity>
 

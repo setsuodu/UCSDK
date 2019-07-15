@@ -26,7 +26,8 @@ public class Demo : MonoBehaviour
     void OnDestroy()
     {
         Debug.Log("卸载...");
-        jo.Call("unregisterSDK");
+        if (Application.platform == RuntimePlatform.Android)
+            jo.Call("unregisterSDK");
 
         initBtn.onClick.RemoveListener(doInit);
         loginBtn.onClick.RemoveListener(doLogin);
@@ -40,35 +41,47 @@ public class Demo : MonoBehaviour
         jo = jc.CallStatic<AndroidJavaObject>(methodName, gameObject.name);
 
         Debug.Log("注册...");
-        jo.Call("registerSDK");
+        if (Application.platform == RuntimePlatform.Android)
+            jo.Call("registerSDK");
     }
 
     void doInit()
     {
         Debug.Log("初始化...");
-        jo.Call("ucSdkInit");
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            //jo.Call("ucSdkInit");
+            //jo.Call("ucSdkInit", 556324);
+            jo.Call("ucSdkInit", 1082089);
+        }
     }
 
     void doLogin()
     {
         Debug.Log("登录中...");
-        jo.Call("login");
+        if (Application.platform == RuntimePlatform.Android)
+            jo.Call("login");
     }
 
     void doPay()
     {
         Debug.Log("调起支付...");
-        jo.Call("doPay");
+        var product_name = "红钻会员";
+        var amount = 0.01f;
+        var order_id = "201600241516";
+        if (Application.platform == RuntimePlatform.Android)
+            jo.Call("doPay", product_name, amount, order_id);
     }
 
     void doLogout()
     {
         Debug.Log("登出...");
-        jo.Call("exit");
+        if (Application.platform == RuntimePlatform.Android)
+            jo.Call("exit");
     }
 
     public void PluginCallBack(string message)
     {
-        Debug.Log("回调：" + message);
+        Debug.Log("SDK回调：" + message);
     }
 }

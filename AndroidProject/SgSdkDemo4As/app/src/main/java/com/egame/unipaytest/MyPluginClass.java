@@ -32,10 +32,8 @@ public class MyPluginClass extends Fragment {
     private static final String TAG = "ucgamesasdk";
     private static MyPluginClass Instance = null;
     private String gameObjectName;
-    public static MyPluginClass GetInstance(String gameObject)
-    {
-        if(Instance == null)
-        {
+    public static MyPluginClass GetInstance(String gameObject) {
+        if(Instance == null) {
             Instance = new MyPluginClass();
             Instance.gameObjectName = gameObject;
             UnityPlayer.currentActivity.getFragmentManager().beginTransaction().add(Instance, TAG).commit();
@@ -93,7 +91,7 @@ public class MyPluginClass extends Fragment {
         sdkParams.put(SDKProtocolKeys.PRODUCT_NAME, product_name);//商品名称,将显示在⽀付界⾯
         sdkParams.put(SDKProtocolKeys.AMOUNT, amount);//充值⾦额,最多保留⼩数点后2位
         //sdkParams.put(SDKProtocolKeys.NOTIFY_URL, "http://192.168.1.1/notifypage.do");
-        sdkParams.put(SDKProtocolKeys.NOTIFY_URL, "http://home.5ihuhu.com/Active/Jiuyou/notify");//服务器通知地址
+        sdkParams.put(SDKProtocolKeys.NOTIFY_URL, "");//"http://home.5ihuhu.com/Active/Jiuyou/notify" //服务器通知地址
         sdkParams.put(SDKProtocolKeys.ATTACH_INFO, "你的透传参数");//服务器通知地址透传参数
         //sdkParams.put(SDKProtocolKeys.CP_ORDER_ID, "2016000"+System.currentTimeMillis());
         sdkParams.put(SDKProtocolKeys.CP_ORDER_ID, order_id);//cp充值订单号
@@ -112,8 +110,13 @@ public class MyPluginClass extends Fragment {
      */
     public void login() {
 
+        UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "登录=============");
+
         try {
-            UCGameSdk.defaultSdk().login(getActivity(), null);
+            //UCGameSdk.defaultSdk().login(getActivity(), null);
+            SDKParams params = new SDKParams();
+            params.put("offline_login",false);
+            UCGameSdk.defaultSdk().login(getActivity(), params);
         } catch (AliLackActivityException e) {
             e.printStackTrace();
         } catch (AliNotInitException e) {
@@ -182,12 +185,14 @@ public class MyPluginClass extends Fragment {
             } else {
                 // 用户登录
                 Toast.makeText(getActivity(), ">> 用户登录成功", Toast.LENGTH_LONG).show();
+                UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "登录成功=============" + sid);
             }
         }
 
         @Subscribe(event = SDKEventKey.ON_LOGIN_FAILED)
         private void onLoginFailed(String desc) {
             Toast.makeText(getActivity(), ">> 登录失败", Toast.LENGTH_LONG).show();
+            UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "登录失败=============" + desc);
         }
 
         @Subscribe(event = SDKEventKey.ON_INIT_SUCC)
