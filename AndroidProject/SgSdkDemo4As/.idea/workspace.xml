@@ -10,39 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e71ba99-c24c-44de-8779-4cbac0daf3e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/arm64-v8a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/arm64-v8a.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/arm64-v8a/lib_ucsdk_patch.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/arm64-v8a/lib_ucsdk_patch.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/arm64-v8a/lib_ucsdk_softlink.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/arm64-v8a/lib_ucsdk_softlink.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/arm64-v8a/lib_ucsdk_xcrypt.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/arm64-v8a/lib_ucsdk_xcrypt.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/arm64-v8a/list.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/arm64-v8a/list.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi-v7a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi-v7a.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi-v7a/lib_ucsdk_patch.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi-v7a/lib_ucsdk_patch.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi-v7a/lib_ucsdk_softlink.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi-v7a/lib_ucsdk_softlink.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi-v7a/lib_ucsdk_xcrypt.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi-v7a/lib_ucsdk_xcrypt.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi-v7a/list.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi-v7a/list.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi/lib_ucsdk_patch.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi/lib_ucsdk_patch.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi/lib_ucsdk_softlink.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi/lib_ucsdk_softlink.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi/lib_ucsdk_xcrypt.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi/lib_ucsdk_xcrypt.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi/list.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/armeabi/list.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/list.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/list.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/mips.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/mips.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/mips/lib_ucsdk_patch.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/mips/lib_ucsdk_patch.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/mips/lib_ucsdk_softlink.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/mips/lib_ucsdk_softlink.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/mips/lib_ucsdk_xcrypt.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/mips/lib_ucsdk_xcrypt.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/mips/list.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/mips/list.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/ucsdk.apk.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/ucsdk.apk.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86/lib_ucsdk_patch.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86/lib_ucsdk_patch.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86/lib_ucsdk_softlink.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86/lib_ucsdk_softlink.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86/lib_ucsdk_xcrypt.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86/lib_ucsdk_xcrypt.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86/list.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86/list.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86_64.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86_64.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86_64/lib_ucsdk_patch.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86_64/lib_ucsdk_patch.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86_64/lib_ucsdk_softlink.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86_64/lib_ucsdk_softlink.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86_64/lib_ucsdk_xcrypt.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86_64/lib_ucsdk_xcrypt.so.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86_64/list.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unity/SgSdkDemo4As/Assets/Plugins/Android/assets/ucgamesdk/lib/x86_64/list.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/egame/unipaytest/MyPluginClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/egame/unipaytest/MyPluginClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/egame/unipaytest/MyPluginClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="215" column="33" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="33" />
+            <state relative-caret-position="127">
+              <caret line="224" column="32" selection-start-line="224" selection-start-column="32" selection-end-line="224" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#GetInstance#0;class#MyPluginClass#0" />
@@ -78,7 +57,6 @@
                 <element signature="method#exit#0;class#MyPluginClass#0" />
                 <element signature="method#exitApp#0;class#MyPluginClass#0" />
                 <element signature="method#formatDate#0;class#MyPluginClass#0" />
-                <element signature="docComment;field#receiver#0;class#MyPluginClass#0" />
               </folding>
             </state>
           </provider>
@@ -139,6 +117,21 @@
               <item name="SgSdkDemo4As" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SgSdkDemo4As" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SgSdkDemo4As" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SgSdkDemo4As" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SgSdkDemo4As" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="aar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SgSdkDemo4As" type="b2602c69:ProjectViewProjectNode" />
@@ -253,10 +246,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19083156" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19083156" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -265,11 +257,11 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="1" sideWeight="0.49840087" visible="true" weight="0.63665944" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49840087" visible="true" weight="0.63665944" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50159913" side_tool="true" weight="0.49566162" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.49566162" />
       <window_info anchor="bottom" id="Build" order="6" weight="0.3286334" />
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" />
@@ -334,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/egame/unipaytest/MyPluginClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="215" column="33" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="33" />
+        <state relative-caret-position="127">
+          <caret line="224" column="32" selection-start-line="224" selection-start-column="32" selection-end-line="224" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#GetInstance#0;class#MyPluginClass#0" />
@@ -350,7 +342,6 @@
             <element signature="method#exit#0;class#MyPluginClass#0" />
             <element signature="method#exitApp#0;class#MyPluginClass#0" />
             <element signature="method#formatDate#0;class#MyPluginClass#0" />
-            <element signature="docComment;field#receiver#0;class#MyPluginClass#0" />
           </folding>
         </state>
       </provider>

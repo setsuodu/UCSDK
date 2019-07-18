@@ -212,7 +212,7 @@ public class MyPluginClass extends Fragment {
         private void onPaySucc(final Bundle data) {
             UnityPlayer.UnitySendMessage(gameObjectName,"PluginCallBack", "UC_Pay_Success");
 
-            Toast.makeText(getActivity(), ">> 支付成功", Toast.LENGTH_LONG).show();
+            //Toast.makeText(getActivity(), ">> 支付成功", Toast.LENGTH_LONG).show();
             Log.d(TAG, "此处为支付成功回调: callback data = " + data.getString("response"));
 
             String response = data.getString("response");
@@ -221,6 +221,8 @@ public class MyPluginClass extends Fragment {
             // 如果发货失败需要设置以下值
             //data.putString("result", Response.OPERATE_FAIL_MSG);
             Log.d(TAG, "pay succ" + data);
+
+            System.out.println("执行发货");
         }
 
         @Subscribe(event = SDKEventKey.ON_PAY_USER_EXIT)
